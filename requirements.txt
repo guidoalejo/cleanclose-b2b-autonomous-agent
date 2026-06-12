@@ -1,0 +1,5 @@
+anthropic>=0.25.0
+pydantic>=2.7.0
+python-dotenv>=1.0.1
+colorama>=0.4.6
+typing-extensions>=4.11.0
