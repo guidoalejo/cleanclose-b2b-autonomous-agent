@@ -1,0 +1,225 @@
+CleanClose AI - Autonomous B2B Sales Agent
+Starting demo batch with 4 sample leads...
+
+
+############################################################
+CleanClose AI - Batch Processing Started
+############################################################
+
+============================================================
+Processing lead: Sunrise Medical Clinic
+============================================================
+INFO: Researching facility for Sunrise Medical Clinic (Medical industry, 15000 sqft)...
+[Research] Scanning Medical facility profile for 'Sunrise Medical Clinic' (15000 sqft)...
+INFO: [Contact] Scheduling discovery call with Sunrise Medical Clinic (Sunrise Medical Clinic decision maker confirmed).
+[Contact] Scheduling discovery call with Sunrise Medical Clinic (Sunrise Medical Clinic decision maker confirmed).
+
+[Discovery] Generating dynamic questions for Sunrise Medical Clinic...
+INFO: [Discovery] Generating dynamic questions for Sunrise Medical Clinic...
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[Agent Q1] Given your focus on infection control, what specific pathogens or high-risk areas—such as exam rooms, waiting areas, or restrooms—are currently causing the most concern, and how is your existing cleaning protocol addressing those threats?
+INFO: [Agent Q1] Given your focus on infection control, what specific pathogens or high-risk areas—such as exam rooms, waiting areas, or restrooms—are currently causing the most concern, and how is your existing cleaning protocol addressing those threats?
+[Agent Q2] With compliance being a top priority, are you currently meeting CDC, OSHA, and HIPAA environmental hygiene standards across all 15,000 square feet, and have you experienced any audit findings or compliance gaps related to cleaning and disinfection practices in the past 12 months?
+INFO: [Agent Q2] With compliance being a top priority, are you currently meeting CDC, OSHA, and HIPAA environmental hygiene standards across all 15,000 square feet, and have you experienced any audit findings or compliance gaps related to cleaning and disinfection practices in the past 12 months?
+[Agent Q3] As you plan for a Q2 2026 transition, what does your current cleaning contract look like in terms of disinfectant product certifications, staff training on medical-grade sanitation protocols, and documented cleaning verification—and where do you feel those areas fall short?
+INFO: [Agent Q3] As you plan for a Q2 2026 transition, what does your current cleaning contract look like in terms of disinfectant product certifications, staff training on medical-grade sanitation protocols, and documented cleaning verification—and where do you feel those areas fall short?
+
+[Discovery] Simulating prospect responses...
+INFO: [Discovery] Simulating prospect responses...
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+
+[Prospect Transcript]
+# Discovery Call Transcript
+**Sunrise Medical Clinic – Facility Manager Interview**
+*Date: [Current Discovery Call]*
+*Participants: Sales Rep, Mark Delgado – Facility Manager, Sunrise Medical Clinic*
+
+---
+
+**Sales Rep:** Mark, thanks for taking the time today. I want to make sure I'm asking the right questions to understand what you're actually dealing with day to day. Let's jump right in.
+
+---
+
+**Question 1:**
+
+**Sales Rep:** Given your focus on infection control, what specific pathogens or high-risk areas—such as exam rooms, waiting areas, or restrooms—are currently causing the most concern, and how is your existing cleaning protocol addressing those threats?
+
+**Mark Delgado:** Yeah, so honestly, our biggest headaches right now are the exam rooms and the waiting area. We see a pretty high patient volume — we're running probably 80 to 100 patients through here on a busy day — and the turnover between patients in those exam rooms is really where I lose sleep at night.
+
+C. diff is a major concern for us, especially since we have some immunocompromised patients coming through. MRSA as well. Our current vendor is using a quaternary ammonium disinfectant, which, frankly, I've had to push back on because quat-based products aren't effective against C. diff spores. I've been asking them to incorporate a sporicidal solution in high-risk rooms for months, and it's been like pulling teeth to get any movement on that.
+
+The waiting area is another one — you've got sick patients sitting there for 20, 30 minutes, touching chairs, door handles, check-in tablets. Right now our protocol is a once-daily wipe-down on high-touch surfaces in that area, which I know is not enough. We should probably be hitting those surfaces every two to three hours minimum. But our current crew just doesn't have the staffing to support that frequency without something falling through the cracks elsewhere.
+
+---
+
+**Question 2:**
+
+**Sales Rep:** With compliance being a top priority, are you currently meeting CDC, OSHA, and HIPAA environmental hygiene standards across all 15,000 square feet, and have you experienced any audit findings or compliance gaps related to cleaning and disinfection practices in the past 12 months?
+
+**Mark Delgado:** I'll be straightforward with you — we had a state health department survey about eight months ago, and we did get a finding. Nothing that put us on a corrective action plan, but it flagged our documentation practices as deficient. Specifically, we weren't consistently logging disinfection times, product dwell times weren't being observed or documented in the exam rooms, and there were a couple of instances where the cleaning staff couldn't produce evidence of completed room turnover protocols.
+
+That was embarrassing, honestly. The clinical staff does a great job, but the environmental services side just isn't keeping up on the documentation piece. Our current vendor gives us a basic checklist, but it's paper-based, there's no real accountability built in, and half the time the logs are incomplete or signed off in bulk at the end of the shift — which obviously isn't accurate.
+
+From an OSHA standpoint, I'm also not fully confident our cleaning staff is properly trained on bloodborne pathogen protocols. They went through an orientation, but I don't have documented annual refresher training records for all of them, and that's something that could bite us hard if we had an incident or an inspection.
+
+So short answer — we're mostly compliant on paper, but the operational execution and documentation have real gaps.
+
+---
+
+**Question 3:**
+
+**Sales Rep:** As you plan for a Q2 2026 transition, what does your current cleaning contract look like in terms of disinfectant product certifications, staff training on medical-grade sanitation protocols, and documented cleaning verification — and where do you feel those areas fall short?
+
+**Mark Delgado:** So our current contract runs through the end of Q1 2026, which is actually why we're having these conversations now. I want to be intentional about who we bring in next rather than just renewing out of convenience, which is honestly how we ended up with our current vendor in the first place.
+
+In terms of product certifications — I actually had to request their EPA registration numbers and SDS sheets myself. That information wasn't proactively provided, and when I reviewed it, some of the products they're using aren't on the EPA's List Q for emerging pathogens or List K for C. diff. That's a problem for a medical environment.
+
+Training is probably the weakest link. The vendor says their staff is trained, but when I've asked for training records or certifications specific to healthcare or medical-grade sanitation — things like ISSA CIMS-Healthcare or even just documented competency checks — they can't produce them. It feels like their team is doing general commercial cleaning and just applying it to a medical setting, which is a very different animal.
+
+And documentation and verification — we have zero real-time visibility. No digital logs, no ATP testing or any kind of objective verification that surfaces are actually clean. I've been pushing for some kind of third-party validation process, but it's just not part of their model. At our budget level, around $5,000 a month, I feel like I should be getting a lot more in terms of accountability and transparency than I currently am.
+
+That's really what I'm looking for in whoever we bring on in Q2 — a vendor that understands the medical environment, can demonstrate compliance-ready documentation, and treats infection control as a clinical priority, not just a janitorial task.
+
+---
+
+*[End of Discovery Segment]*
+
+---
+
+> **Note for Sales Rep:** Strong opportunity to present EPA List K/Q-certified product protocols, digital verification/ATP testing capabilities, healthcare-specific staff training credentials, and real-time compliance reporting as key differentiators.
+INFO: Prospect transcript generated for Sunrise Medical Clinic
+
+[Discovery] Extracting service parameters...
+INFO: [Discovery] Extracting service parameters...
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+
+[Discovery] Completed for Sunrise Medical Clinic (Medical): frequency=Daily, services=['Sporicidal Disinfection', 'ATP Surface Verification Testing', 'Digital Compliance Documentation', 'High-Touch Surface Disinfection']
+INFO: Discovery completed for Sunrise Medical Clinic: {'service_frequency': 'Daily', 'specialized_services_included': ['Sporicidal Disinfection', 'ATP Surface Verification Testing', 'Digital Compliance Documentation', 'High-Touch Surface Disinfection']}
+
+[Negotiation] Presenting proposal to Sunrise Medical Clinic: $3,000.00/month (Daily)
+INFO: Presenting proposal prop-6f05f838 to Sunrise Medical Clinic at $3000.00/month
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+
+[Negotiation Transcript]
+Sales Director: Good afternoon! Thank you for considering our services for Sunrise Medical Clinic. Based on your facility's requirements — daily service frequency along with our specialized medical-grade offerings including Sporicidal Disinfection, ATP Surface Verification Testing, Digital Compliance Documentation, and High-Touch Surface Disinfection — we've put together a comprehensive proposal at $3,000.00 per month.
+
+Prospect: That sounds great. We've budgeted $5,000.00 per month for cleaning services, so that works well within our range.
+
+Sales Director: Excellent! I'm very pleased to hear that. Our calculated price of $3,000.00 per month is well within your budget, and I want to assure you that you're getting exceptional value. Our Sporicidal Disinfection protocols meet CDC and OSHA healthcare standards, our ATP Surface Verification Testing provides measurable cleanliness data, and our Digital Compliance Documentation gives you audit-ready records at all times — critical for a medical facility like yours.
+
+Prospect: That's reassuring. We want to make sure our clinic maintains the highest hygiene standards for our patients and staff.
+
+Sales Director: Absolutely, and that's exactly what we deliver. I'm happy to confirm we can move forward at $3,000.00 per month with no need for any adjustments. Your budget comfortably accommodates our full-service package, so you'll receive every premium feature without compromise. Shall we proceed with drafting the service agreement?
+
+Prospect: Yes, let's move forward. We're confident this is the right partnership.
+
+Sales Director: Wonderful! Welcome aboard, Sunrise Medical Clinic. We look forward to keeping your facility safe, compliant, and spotless every single day.
+INFO: Negotiation result for Sunrise Medical Clinic: status=accepted, final_price=$3000.00
+
+[DEAL CLOSED] Deal closed for Sunrise Medical Clinic! Contract ID: contract-8983f6c3 | Final MRR: $3,000.00 | Service starts: 2026-06-18
+INFO: Deal closed for Sunrise Medical Clinic. Contract contract-8983f6c3, MRR $3000.00
+INFO: Contract signed for Sunrise Medical Clinic. MRR $3000.00, cycle 25 days
+
+============================================================
+Processing lead: TechPark Office Hub
+============================================================
+INFO: Researching facility for TechPark Office Hub (Office industry, 14000 sqft)...
+[Research] Scanning Office facility profile for 'TechPark Office Hub' (14000 sqft)...
+INFO: [Contact] Scheduling discovery call with TechPark Office Hub (TechPark Office Hub decision maker confirmed).
+[Contact] Scheduling discovery call with TechPark Office Hub (TechPark Office Hub decision maker confirmed).
+
+[Discovery] Generating dynamic questions for TechPark Office Hub...
+INFO: [Discovery] Generating dynamic questions for TechPark Office Hub...
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+[Agent Q1] Given your after-hours cleaning needs, can you walk me through your current process for granting facility access to cleaning crews, and have you experienced any security or compliance concerns with your existing setup?
+INFO: [Agent Q1] Given your after-hours cleaning needs, can you walk me through your current process for granting facility access to cleaning crews, and have you experienced any security or compliance concerns with your existing setup?
+[Agent Q2] With 14,000 sqft of office space and desk sanitization as a priority, how many workstations are you managing, and do you have any hot-desking or shared workspace arrangements that require more frequent or rigorous sanitization protocols?
+INFO: [Agent Q2] With 14,000 sqft of office space and desk sanitization as a priority, how many workstations are you managing, and do you have any hot-desking or shared workspace arrangements that require more frequent or rigorous sanitization protocols?
+[Agent Q3] As you plan for a Q3 2026 start, are there any upcoming lease renewals, office reconfigurations, or employee headcount changes that might impact the scope of cleaning services you'll need at TechPark Office Hub?
+INFO: [Agent Q3] As you plan for a Q3 2026 start, are there any upcoming lease renewals, office reconfigurations, or employee headcount changes that might impact the scope of cleaning services you'll need at TechPark Office Hub?
+
+[Discovery] Simulating prospect responses...
+INFO: [Discovery] Simulating prospect responses...
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+
+[Prospect Transcript]
+# Discovery Call Transcript
+**TechPark Office Hub – Facility Manager Discovery Call**
+
+---
+
+**Sales Rep:** Given your after-hours cleaning needs, can you walk me through your current process for granting facility access to cleaning crews, and have you experienced any security or compliance concerns with your existing setup?
+
+**Facility Manager:** Yeah, so right now we're using a key fob system for after-hours access, and honestly it's been a headache. We issue a fob to the cleaning supervisor, but there's no real visibility into who's actually coming and going or exactly when. We had an incident about eight months ago where we couldn't verify whether the crew had actually been in the building on a Friday night — no log, no confirmation. Our IT team also flags concerns pretty regularly about cleaning staff being around workstations and server room adjacencies after hours without any real oversight. We're not in a heavily regulated industry, but we do have some clients with data sensitivity expectations, so it's a conversation that keeps coming up internally.
+
+---
+
+**Sales Rep:** With 14,000 sqft of office space and desk sanitization as a priority, how many workstations are you managing, and do you have any hot-desking or shared workspace arrangements that require more frequent or rigorous sanitization protocols?
+
+**Facility Manager:** We're sitting at roughly 180 workstations total. About 60 of those are dedicated assigned desks, but the remaining 120 are hot-desking stations — we moved to that model post-pandemic and never fully went back. Those shared desks are the real problem area. We've had employee complaints about sanitization consistency, especially on Mondays when people come back after the weekend. Right now we're relying on the cleaning crew to wipe down surfaces during their nightly run, but with 120 rotating desks, things get missed. We've tried putting sanitization supplies at each station for employees to self-serve, but the follow-through is inconsistent at best.
+
+---
+
+**Sales Rep:** As you plan for a Q3 2026 start, are there any upcoming lease renewals, office reconfigurations, or employee headcount changes that might impact the scope of cleaning services you'll need at TechPark Office Hub?
+
+**Facility Manager:** Good question, and actually the timing is pretty relevant here. Our lease runs through mid-2027, so we're stable on that front. But we are planning a moderate reconfiguration in Q2 2026 — we're adding a small conference suite and expanding our collaborative workspace area, probably adding another 1,500 square feet of active footprint within the existing space. Headcount-wise, we're projecting to grow from about 210 employees to closer to 260 by end of 2026, which is going to put more pressure on those hot-desking stations and common areas. So whatever we lock in for Q3, I want to make sure there's some flexibility to scale up without having to renegotiate everything from scratch. My budget right now is around $4,000 a month, but I'm realistic that the expansion may push that number, so I'd want to understand what a tiered or scalable agreement could look like.
+INFO: Prospect transcript generated for TechPark Office Hub
+
+[Discovery] Extracting service parameters...
+INFO: [Discovery] Extracting service parameters...
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+
+[Discovery] Completed for TechPark Office Hub (Office): frequency=Daily, services=['Workstation Desk Sanitization', 'Hot-Desk Sanitization Protocol', 'After-Hours Access-Controlled Cleaning', 'Server Room Adjacency Oversight Cleaning']
+INFO: Discovery completed for TechPark Office Hub: {'service_frequency': 'Daily', 'specialized_services_included': ['Workstation Desk Sanitization', 'Hot-Desk Sanitization Protocol', 'After-Hours Access-Controlled Cleaning', 'Server Room Adjacency Oversight Cleaning']}
+
+[Negotiation] Presenting proposal to TechPark Office Hub: $2,800.00/month (Daily)
+INFO: Presenting proposal prop-be636918 to TechPark Office Hub at $2800.00/month
+INFO: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+
+[Negotiation Transcript]
+Sales Director (David Marsh): Good afternoon! Thank you for taking the time to meet with us today. We're genuinely excited about the opportunity to partner with TechPark Office Hub. After conducting a thorough assessment of your facility's needs — including daily cleaning, Workstation Desk Sanitization, Hot-Desk Sanitization Protocol, After-Hours Access-Controlled Cleaning, and Server Room Adjacency Oversight Cleaning — our calculated service price comes in at $2,800.00 per month.
+
+Prospect (TechPark Office Hub Rep): That's great to hear, David. We've actually allocated a budget of $4,000.00 per month for these services, so your pricing fits well within what we had in mind.
+
+Sales Director (David Marsh): Excellent! I'm pleased to confirm that our standard rate of $2,800.00 per month is fully within your budget. There's no need for any adjustments or discounts — you're actually coming in well above our price point, which means we can deliver the full suite of specialized services without any compromise. That includes the daily cleaning rotations, rigorous hot-desk and workstation sanitization protocols compliant with current hygiene standards, our after-hours access-controlled cleaning team with proper security clearance procedures, and our specialized server room adjacency oversight to ensure no disruption to sensitive equipment zones.
+
+Prospect (TechPark Office Hub Rep): That sounds perfect. We want to make sure our teams have a clean, safe, and professional environment, especially with the shared workstation setup we run. We're happy to move forward at $2,800.00 per month.
+
+Sales Director (David Marsh): Wonderful! We're thrilled to welcome TechPark Office Hub as a valued client. We'll have the service agreement drafted and sent over by end of business today. Looking forward to a long and successful partnership!
+INFO: Negotiation result for TechPark Office Hub: status=accepted, final_price=$2800.00
+
+[DEAL CLOSED] Deal closed for TechPark Office Hub! Contract ID: contract-ba342649 | Final MRR: $2,800.00 | Service starts: 2026-06-18
+INFO: Deal closed for TechPark Office Hub. Contract contract-ba342649, MRR $2800.00
+INFO: Contract signed for TechPark Office Hub. MRR $2800.00, cycle 24 days
+
+============================================================
+Processing lead: Budget Retail Outlet
+============================================================
+INFO: Researching facility for Budget Retail Outlet (Retail industry, 8000 sqft)...
+[Research] Scanning Retail facility profile for 'Budget Retail Outlet' (8000 sqft)...
+INFO: [Contact] Sending nurture/rejection email to Budget Retail Outlet (lead did not meet qualification criteria).
+[Contact] Sending nurture/rejection email to Budget Retail Outlet (lead did not meet qualification criteria).
+INFO: Lead rejected at qualification: Budget Retail Outlet (status=disqualified)
+[Pipeline] Lead 'Budget Retail Outlet' rejected. Pipeline stopped.
+
+============================================================
+Processing lead: Riverside Academy
+============================================================
+INFO: Researching facility for Riverside Academy (Educational industry, 20000 sqft)...
+[Research] Scanning Educational facility profile for 'Riverside Academy' (20000 sqft)...
+INFO: [Contact] Sending nurture/rejection email to Riverside Academy (le[Contact] Sending nurture/rejection email to Riverside Academy (lead did not meet qualification criteria).
+INFO: Lead rejected at qualification: Riverside Academy (status=disqualified)
+[Pipeline] Lead 'Riverside Academy' rejected. Pipeline stopped.
+
+############################################################
+TELEMETRY DASHBOARD - CleanClose AI
+############################################################
+  Leads Processed:     4
+  Contracts Signed:    2
+  Total MRR:           $5,800.00
+  Average MRR:         $2,900.00
+  Avg Sales Cycle:     24.5 days
+------------------------------------------------------------
+  KPI: Average MRR > $2,500        ->  PASS ($2,900.00)
+  KPI: Cycle Velocity < 30 days    ->  PASS (24.5 days)
+############################################################
